@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    background-color: #45aaf2;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a{
+    text-decoration: none;
+}
+
+header .logo{
+    margin-left: 16px;
+}
+header nav button{
+    margin-right: 16px;
+}
+
+@media (max-width: 650px){
+    header{
+        display: none;
+    }
+}

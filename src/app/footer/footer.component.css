@@ -1,0 +1,21 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute; 
+    bottom:0; 
+    width:100%;
+    font-weight: bold;
+    font-size: small;
+    background-color: #45aaf2;
+    height: 70px;
+}
+footer img{
+    height: 50px;
+}
+
+@media (max-width: 650px){
+    footer{
+        display: none;
+    }
+}
